@@ -1,3 +1,15 @@
+import Header from './Components/Header';
+import MemeImg from './Components/Header.js';
+
 export default function App() {
-  return <h1> hello world</h1>;
+  return (
+    <div>
+      <br />
+      <Header />
+      <br />
+      <br />
+      <MemeImg />
+      <br />
+    </div>
+  );
 }
