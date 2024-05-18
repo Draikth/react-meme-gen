@@ -6,7 +6,7 @@ export default function BottomText() {
   return (
     <form onSubmit={(event) => event.preventDefault()}>
       <label>
-        Bottom Text
+        Bottom Text:
         <input
           value={bottomInput}
           onChange={(event) => setBottomInput(event.currentTarget.value)}

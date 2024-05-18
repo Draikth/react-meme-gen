@@ -6,7 +6,7 @@ export default function TopText() {
   return (
     <form onSubmit={(event) => event.preventDefault()}>
       <label>
-        Top Text
+        Top Text:
         <input
           value={topInput}
           onChange={(event) => setTopInput(event.currentTarget.value)}
